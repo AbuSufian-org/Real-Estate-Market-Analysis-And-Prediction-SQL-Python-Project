@@ -16,6 +16,11 @@ The goal is not just to explore — but to predict:
 - Visualize insights for investors & analysts
 - Predict **growth potential** of individual homes
 
+---
+
+## Project Links
+**Kaggle Notebook:** [View Full Project with Code & Charts](https://www.kaggle.com/code/abusufianorg/real-estate-insights-sql-python)
+
 ![Image](https://github.com/user-attachments/assets/a1a29157-ea59-4728-9c01-a132e3ff712f)
 
 ---
@@ -74,17 +79,23 @@ Growth_Score = (Location_Score * 0.4)
 real-estate-analysis/
 ├── Row data/
 │   └── usa_real_estate.csv
+
 ├── notebook/
 │   └── USA-real-estate-insights-sql-python.ipynb
+
 ├── outputs/
 │   └── visualizations.png
+
 ├── README.md
+
 └── requirements.txt
 
 ---
 
-## Project Links
-**Kaggle Notebook:** [View Full Project with Code & Charts](https://www.kaggle.com/code/abusufianorg/real-estate-insights-sql-python)
+## Final Reflection
+This project combined SQL logic with Python storytelling to answer real questions that buyers, sellers, and investors care about.
+
+> Data doesn't lie. And in real estate — price ≠ size, it's about features, feel, and foundation.
 
 ---
 
