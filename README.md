@@ -1,9 +1,5 @@
 # Real-Estate-Market-Analysis-And-Prediction-SQL-Python-Project
 
-# 🏡 Real Estate Market Analysis — SQL & Python Project
-
-![Image](https://github.com/user-attachments/assets/a1a29157-ea59-4728-9c01-a132e3ff712f)
-
 ## Overview
 
 This project explores **USA real estate market trends** using **SQL (SQLite)** and **Python (Pandas, Matplotlib, Seaborn)**. The analysis uncovers how factors like **location, number of bedrooms, garage size, pools, build year, and distance to the city center** affect home prices.
@@ -19,6 +15,8 @@ The goal is not just to explore — but to predict:
 - Uncover market trends based on home features
 - Visualize insights for investors & analysts
 - Predict **growth potential** of individual homes
+
+![Image](https://github.com/user-attachments/assets/a1a29157-ea59-4728-9c01-a132e3ff712f)
 
 ---
 
@@ -47,7 +45,7 @@ To go beyond standard EDA, we built a custom **Growth Potential Score** using:
 - Garage Size 
 - Low Price per Square Foot   
 
-```python
+
 Growth_Score = (Location_Score * 0.4)
              + (20 if Garden)
              + (15 if Pool)
@@ -64,7 +62,7 @@ Growth_Score = (Location_Score * 0.4)
 | `Python` | Analysis, modeling, and visualization |
 | `Pandas` | Data wrangling |
 | `Matplotlib` & `Seaborn` | Charts & statistical graphics |
-| `Jupyter Notebook` | Project execution & storytelling |
+| `Kaggle Notebook` | Project execution & storytelling |
 
 ---
 
@@ -73,13 +71,28 @@ Growth_Score = (Location_Score * 0.4)
 ---
 
 ## Project Structure
-📦 real-estate-analysis/
-├── data/
+real-estate-analysis/
+├── Row data/
 │   └── usa_real_estate.csv
 ├── notebook/
-│   └── real_estate_analysis.ipynb
+│   └── USA-real-estate-insights-sql-python.ipynb
 ├── outputs/
 │   └── visualizations.png
 ├── README.md
 └── requirements.txt
 
+---
+
+## Project Links
+**Kaggle Notebook:** [View Full Project with Code & Charts](https://www.kaggle.com/code/abusufianorg/real-estate-insights-sql-python)
+
+---
+
+## 🧑‍💻 About Me
+
+I'm **Abu Sufian**, a data analyst passionate about using data to solve real-world problems.  
+If you enjoyed this project or want to collaborate—let’s connect!
+
+🔗 [LinkedIn](https://www.linkedin.com/in/abusufianorg/)  
+📧 abusufianorg@gmail.com  
+📊 [My Portfolio](https://github.com/AbuSufian-org/)
